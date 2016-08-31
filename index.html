@@ -6,6 +6,7 @@
 <style>
    *{ margin:0; padding:0;}
    #div1{ width:300px;  height:300px; background:#ff6600; filter:alpha(opacity:30); opacity:0.3;}
+   #btn1{ color:#fff; background:orange; height:32px; width:120px; text-align:center; line-height:32px; font-family:"微软雅黑"; font-size:14px; border:0; border-radius:6px;}
  
 </style>
 
@@ -13,6 +14,11 @@
  window.onload= function()
 {
       var oDiv = document.getElementById('div1');
+	  var oBtn= document.getElementById('btn1');
+	  oBtn.onclick=function(){
+		 window.open('esfwe.html','_blank') 
+	 }
+	  
 	 oDiv.onmouseover =function () 
 	 {
 		startMove(100) 
@@ -60,7 +66,9 @@
   
 <body>
 <div id="div1">
-
+<a href="esfwe.html" target="_blank"></a>
 </div>
+
+<button id="btn1">关于我</button>
 </body>
 </html>
