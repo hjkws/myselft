@@ -1,0 +1,538 @@
+@charset "utf-8";
+/* CSS Document */
+
+ *{margin:0; padding:0; font-size:14px;}
+a{text-decoration:none;}
+li{ list-style: none}
+img{border:0;}
+.clear{ clear:both}
+body{ overflow:-Scroll; overflow-x:hidden}
+
+.conter .wrapper .login
+{
+    	height:410px;
+    	width:370px;
+    	background:#fff;
+    	animation:wave 0.3s ease-in 0.6s forwards;
+    	-moz-animation:wave 0.3s ease-in  0.6s forwards; 
+    	-o-animation:wave 0.3s ease-in 0.6s forwards; 
+    	-webkit-animation:wave 0.3s ease-in 0.6s forwards;
+		margin-left:862px; margin-top:190px; opacity:0;
+		box-shadow:3px 3px 4px #d16614
+		
+	
+}
+.main{ margin:auto; }
+.main .head{ width:100%; height:80px;  border:1px solid #f77410}
+.head img{ width:316px; height:44px; margin-left:90px; margin-top:18px; }
+.main .conter{  overflow:hidden;
+height:800px; width:100%; background-color:#f77410; margin-top:1px; background-image: url(../images/lo_01.png); background-repeat:no-repeat; 
+background-position:-1412px -268px;
+         animation:backones 0.5s ease-in-out 1s forwards;
+    	-moz-animation:backones 0.5s ease-in-out  1s forwards; 
+    	-o-animation:backones 0.5s ease-in-out 1s forwards; 
+    	-webkit-animation:backones 0.5s ease-in-out 1s forwards;
+} 
+.main .conter .wrapper{ width:1240px; height:800px; margin:auto; border:1px solid #930; border-color:rgba(225,225,225,0); position:relative;}
+.main .conter .wrapper .ml_ones{ width:932px; height:765px; background: url(../images/lo_03.png); background-repeat:no-repeat; display:block; position:absolute; top:336px; left:-464px;-webkit-transform:translateY(480px);
+transform:translateY(480px);
+        animation:backtwo 0.3s ease-in-out 1.8s forwards;
+    	-moz-animation:backtwo 0.3s ease-in-out  1.8s forwards; 
+    	-o-animation:backtwo 0.3s ease-in-out 1.8s forwards; 
+    	-webkit-animation:backtwo 0.3s ease-in-out 1.8s forwards;
+
+}
+.main .conter  .ml_pont{ width:1240px; height:800px;height:800px; width:100%; background:url(../images/lo_19.png); background-repeat:no-repeat; position:absolute;  opacity:0;
+        animation:point 0.5s ease-in-out 4.3s forwards;
+    	-moz-animation:point 0.5s ease-in-out  4.3s forwards; 
+    	-o-animation:point 0.5s ease-in-out 4.3s forwards; 
+    	-webkit-animation:point 0.5s ease-in-out 4.3s forwards;
+
+}
+/**/
+.main .conter .wrapper .ml_two{ width:480px; height:480px; top:298px; left:182px; display:block; background:url(../images/lo_02.png); background-repeat:no-repeat; position:absolute;transform:translateY(-780px); -webkit-transform:translateY(-780px);
+        animation:backthree 0.3s ease-in-out 2.1s forwards;
+    	-moz-animation:backthree 0.3s ease-in-out  2.1s forwards; 
+    	-o-animation:backthree 0.3s ease-in-out 2.1s forwards; 
+    	-webkit-animation:backthree 0.3s ease-in-out 2.1s forwards;
+
+}
+.main .conter .wrapper .ml_two .mk_top{width:206px; height:206px; position:absolute; display:block; background:url(../images/lo_05.png); left:138px; opacity:0;
+         animation:drive1 0.5s ease-in-out 2.4s forwards;
+    	-moz-animation:drive1 0.5s ease-in-out  2.4s forwards; 
+    	-o-animation:drive1 0.5s ease-in-out 2.4s forwards; 
+    	-webkit-animation:drive1 0.5s ease-in-out 2.4s forwards;
+
+
+}
+.main .conter .wrapper .ml_two .mk_left{width:252px; height:252px; position:absolute; display:block; background:url(../images/lo_06.png); top:118px; background-repeat:no-repeat; opacity:0;
+         animation:drivemen 0.5s ease-in-out 2.6s forwards;
+    	-moz-animation:drivemen 0.5s ease-in-out  2.6s forwards; 
+    	-o-animation:drivemen 0.5s ease-in-out 2.6s forwards; 
+    	-webkit-animation:drivemen 0.5s ease-in-out 2.6s forwards;
+
+}
+.main .conter .wrapper .ml_two .mk_right{width:252px; height:252px; position:absolute; display:block; background:url(../images/lo_07.png);background-repeat:no-repeat; opacity:0;top:118px; left:240px;
+        animation:illegal 0.5s ease-in-out 2.6s forwards;
+    	-moz-animation:illegal 0.5s ease-in-out  2.6s forwards; 
+    	-o-animation:illegal 0.5s ease-in-out 2.6s forwards; 
+    	-webkit-animation:illegal 0.5s ease-in-out 2.6s forwards;
+
+}
+.main .conter .wrapper .ml_two .mk_bottom{width:206px; height:206px; position:absolute; display:block; background:url(../images/lo_08.png);background-repeat:no-repeat; opacity:0;top:286px;  left:138px;
+        animation:illegal 0.5s ease-in-out 2.6s forwards;
+    	-moz-animation:illegal 0.5s ease-in-out  2.6s forwards; 
+    	-o-animation:illegal 0.5s ease-in-out 2.6s forwards; 
+    	-webkit-animation:illegal 0.5s ease-in-out 2.6s forwards;
+
+}
+
+/*定位与调度*/
+.main .conter .wrapper .ml_three{width:277px; height:277px;display:block; position:absolute; background:url(../images/lo_09.png);background-repeat:no-repeat; left:-30px; top:350px; left:-36px;transform:translateY(-620px); -webkit-transform:translateY(-620px);
+         animation:backfour 0.3s ease-in-out 2.4s forwards;
+    	-moz-animation:backfour 0.3s ease-in-out  2.4s forwards; 
+    	-o-animation:backfour 0.3s ease-in-out 2.4s forwards; 
+    	-webkit-animation:backfour 0.3s ease-in-out 2.4s forwards;
+}
+.main .conter .wrapper .ml_four{width:257px; height:257px;display:block; position:absolute; background:url(../images/lo_10.png); background-repeat:no-repeat; top:225px; left:102px;transform:translateY(-500px); -webkit-transform:translateY(-500px);
+       animation:backfive 0.3s ease-in-out 2.6s forwards;
+    	-moz-animation:backfive 0.3s ease-in-out  2.6s forwards; 
+    	-o-animation:backfive 0.3s ease-in-out 2.6s forwards; 
+    	-webkit-animation:backfive 0.3s ease-in-out 2.6s forwards;  
+
+}
+.main .conter .wrapper .ml_five{width:185px; height:185px;display:block; position:absolute; background:url(../images/lo_13.png); background-repeat:no-repeat; top:204px; left:422px;transform:translateY(-400px); -webkit-transform:translateY(-400px); 
+      animation:backsix 0.3s ease-in-out 2.8s forwards;
+    	-moz-animation:backsix 0.3s ease-in-out  2.8s forwards; 
+    	-o-animation:backsix 0.3s ease-in-out 2.8s forwards; 
+    	-webkit-animation:backsix 0.3s ease-in-out 2.8s forwards;
+}
+.main .conter .wrapper .ml_six{width:164px; height:164px;display:block; position:absolute; background:url(../images/lo_111.png); background-repeat:no-repeat; top:332px; left:-110px;transform:translateY(-500px); -webkit-transform:translateY(-500px);
+        animation:backseven 0.3s ease-in-out 3s forwards;
+    	-moz-animation:backseven 0.3s ease-in-out  3s forwards; 
+    	-o-animation:backseven 0.3s ease-in-out 3s forwards; 
+    	-webkit-animation:backseven 0.3s ease-in-out 3s forwards;
+}
+.main .conter .wrapper .ml_seven{width:164px; height:164px;display:block; position:absolute; background:url(../images/lo_12.png); background-repeat:no-repeat; top:258px; left:-36px;transform:translateY(-420px); -webkit-transform:translateY(-420px);
+        animation:backeight 0.3s ease-in-out 3.2s forwards;
+    	-moz-animation:backeight 0.3s ease-in-out  3.2s forwards; 
+    	-o-animation:backeight 0.3s ease-in-out 3.2s forwards; 
+    	-webkit-animation:backeight 0.3s ease-in-out 3.2s forwards;
+
+} 
+.main .conter .wrapper .ml_eight{width:147px; height:147px;display:block; position:absolute; background:url(../images/lo_14.png); background-repeat:no-repeat; top:320px; left:510px; opacity:0;
+        animation:backnight 0.3s ease-in-out 3.4s forwards;
+    	-moz-animation:backnight 0.3s ease-in-out  3.4s forwards; 
+    	-o-animation:backnight 0.3s ease-in-out 3.4s forwards; 
+    	-webkit-animation:backnight 0.3s ease-in-out 3.4s forwards;
+       
+
+} 
+.main .conter .wrapper .ml_night{width:147px; height:147px;display:block; position:absolute; background:url(../images/lo_15.png); background-repeat:no-repeat; top:320px; left:640px; opacity:0;
+        animation:backten 0.3s ease-in-out 3.6s forwards;
+    	-moz-animation:backten 0.3s ease-in-out  3.6s forwards; 
+    	-o-animation:backten 0.3s ease-in-out 3.6s forwards; 
+    	-webkit-animation:backten 0.3s ease-in-out 3.6s forwards;
+       
+
+}
+.conter .wrapper .introduce{ width:670px; height:120px; position:absolute; background: url(../images/kl_56.png) no-repeat center; top:70px; left:10px; opacity:0;
+        animation:introduce 0.3s ease-in-out 3.9s forwards;
+    	-moz-animation:introduce 0.3s ease-in-out  3.9s forwards; 
+    	-o-animation:introduce 0.3s ease-in-out 3.9s forwards; 
+    	-webkit-animation:introduce 0.3s ease-in-out 3.9s forwards;
+
+}
+.conter .wrapper .login h3{ width:350px; height:53px; border-bottom:1px solid #f77410; line-height:53px; padding-left:20px; font-family:"微软雅黑"; font-size:16px; color:#f77410}
+.conter .wrapper .login ul{ margin-left:20px; margin-top:50px;}
+.conter .wrapper .login li{ width:330px; height:48px; border:1px solid #e4e4e4; border-radius:6px;}
+.conter .wrapper .login li:first-child label{ display:inline-block; width:66px; height:48px; background:#d0d0d0 url(../images/lo_16.png) center no-repeat; border-right:1px solid #e4e4e4; float:left;}
+.conter .wrapper .login li:last-child label{ display:inline-block; width:66px; height:48px; background:#d0d0d0 url(../images/lo_17.png) center no-repeat; border-right:1px solid #e4e4e4;float:left;}
+.conter .wrapper .login li input{ height:48px; width:250px; background:#fff; border:0;float:left; border-radius:6px; padding-left:10px; color:#666}
+.conter .wrapper .login li:last-child{ margin-top:20px; }
+.conter .wrapper .login .forget{ width:330px; height:50px; display:block; margin-left:20px; line-height:50px; font-family:"微软雅黑"; font-size:14px; color:#666; margin-top:20px;}
+.conter .wrapper .login .forget label{ float:right; margin-right:10px;}
+.conter .wrapper .login li input:focus{border: 1px solid #ffb889; background:#faf2ec; box-shadow:2px 2px 2px #e2faff,-2px -2px 2px #e2faff;}
+.conter .wrapper .login .forget label a{ display:inline-block;font-family:"微软雅黑"; font-size:14px; color:#d46f0a}
+
+.conter .wrapper .login button{ width:330px; height:48px; border-radius:8px; background:#53c0ff;font-family:"微软雅黑"; font-size:26px; color:#fff; box-shadow:4px 4px 6px #c7bbb0; border:0; margin-left:20px; margin-top:16px;
+ transform: scaleX(0);-webkit-transform: scaleX(0); cursor:pointer;
+        animation:loginbutton 0.5s ease-in-out 1.2s forwards;
+    	-moz-animation:loginbutton 0.5s ease-in-out  1.2s forwards; 
+    	-o-animation:loginbutton 0.5s ease-in-out 1.2s forwards; 
+    	-webkit-animation:loginbutton 0.5s ease-in-out 1.2s forwards;
+}
+
+.main footer{ height:60px; width:100%; line-height:60px; text-align:center;}
+.main footer p{font-family:"微软雅黑"; font-size:14px; color:#6b6b6b}
+@keyframes wave
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-moz-keyframes wave
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-o-keyframes wave
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-webkit-keyframes wave
+{
+        from{-webkit-transform:scale(0)}
+        to{-webkit-transform:scale(1); opacity:1}
+}
+/*点*/
+@keyframes point
+{
+    	from{transform:scale(0); opacity:0;}
+    	to{transform:scale(1); opacity:1}
+}
+@-moz-keyframes point
+{
+    	from{transform:scale(0);opacity:0;}
+    	to{transform:scale(1); opacity:1}
+}
+@-o-keyframes point
+{
+    	from{transform:scale(0);opacity:0;}
+    	to{transform:scale(1); opacity:1}
+}
+@-webkit-keyframes point
+{
+        from{-webkit-transform:scale(0)}
+        to{-webkit-transform:scale(1); opacity:1}
+}
+/*宣传语*/
+@keyframes introduce
+{
+    	from{ transform:translateY(120px); opacity:0}
+    	to{ transform:translateY(0);opacity:1}
+}
+@-moz-keyframes introduce
+{
+    	from{ transform:translateY(120px); opacity:0}
+    	to{ transform:translateY(0);opacity:1}
+}
+@-o-keyframes introduce
+{
+    	from{ transform:translateY(120px); opacity:0}
+    	to{ transform:translateY(0);opacity:1}
+}
+@-webkit-keyframes introduce
+{
+        from{-webkit-transform:translateY(120px); opacity:0}
+    	to{ -webkit-transform:translateY(0);opacity:1}
+}
+/*登录按钮*/
+@keyframes loginbutton
+{
+    	from{ transform: scaleX(0)}
+    	to{ transform: scaleX(1)}
+}
+@-moz-keyframes loginbutton
+{
+    	from{ transform: scaleX(0)}
+    	to{ transform: scaleX(1)}
+}
+@-o-keyframes loginbutton
+{
+    	from{ transform: scaleX(0)}
+    	to{ transform: scaleX(1)}
+}
+@-webkit-keyframes loginbutton
+{
+        from{ -webkit-transform: scaleX(0)}
+    	to{ -webkit-transform: scaleX(1)}
+}
+/*背景ones*/
+
+@keyframes backones
+{
+    	from{ background-position:-1412px -268px}
+    	to{background-position:760px -268px; opacity:1}
+}
+@-moz-keyframes backones
+{
+    	from{background-position:-1920px -268px;}
+    	to{background-position:760px -268px;opacity:1}
+}
+@-o-keyframes wbackones
+{
+    	from{background-position:-1412px -268px;}
+    	to{background-position:760px -268px;opacity:1}
+}
+@-webkit-keyframes backones
+{
+        from{background-position:-1412px -268px;}
+        to{background-position:760px -268px;opacity:1}
+}
+/*背景two*/
+@keyframes backtwo
+{
+    	from{ transform:translateY(480px)}
+    	to{ transform:translateY(0)}
+}
+@-moz-keyframes backtwo
+{
+    	from{ transform:translateY(480px)}
+    	to{transform:translateY(0)}
+}
+@-o-keyframes wbacktwo
+{
+    	from{ transform:translateY(480px)}
+    	to{transform:translateY(0)}
+}
+@-webkit-keyframes backtwo
+{
+        from{-webkit-transform:translateY(480px)}
+        to{-webkit-transform:translateY(0)}
+}
+/*背景three*/
+@keyframes backthree
+{
+    	from{ transform:translateY(-780px)}
+    	to{ transform:translateY(0)}
+}
+@-moz-keyframes backthree
+{
+    	from{ transform:translateY(-780px)}
+    	to{transform:translateY(0)}
+}
+@-o-keyframes wbackthree
+{
+    	from{ transform:translateY(-780px)}
+    	to{transform:translateY(0)}
+}
+@-webkit-keyframes backthree
+{
+        from{ -webkit-transform:translateY(-780px)}
+        to{-webkit-transform:translateY(0)}
+}
+/*背景fuor*/
+@keyframes backfour
+{
+    	from{ transform:translateY(-620px)}
+    	to{ transform:translateY(0)}
+}
+@-moz-keyframes backfour
+{
+    	from{ transform:translateY(-620px)}
+    	to{transform:translateY(0)}
+}
+@-o-keyframes backfour
+{
+    	from{ transform:translateY(-620px)}
+    	to{transform:translateY(0)}
+}
+@-webkit-keyframes backfour
+{
+        from{ -webkit-transform:translateY(-620px)}
+        to{-webkit-transform:translateY(0)}
+}
+/*背景five*/
+@keyframes backfive
+{
+    	from{ transform:translateY(-500px)}
+    	to{ transform:translateY(0)}
+}
+@-moz-keyframes backfive
+{
+    	from{ transform:translateY(-500px)}
+    	to{transform:translateY(0)}
+}
+@-o-keyframes backfive
+{
+    	from{ transform:translateY(-500px)}
+    	to{transform:translateY(0)}
+}
+@-webkit-keyframes backfive
+{
+        from{ -webkit-transform:translateY(-500px)}
+        to{-webkit-transform:translateY(0)}
+}
+/*背景six*/
+@keyframes backsix
+{
+    	from{ transform:translateY(-400px)}
+    	to{ transform:translateY(0)}
+}
+@-moz-keyframes backsix
+{
+    	from{ transform:translateY(-400px)}
+    	to{transform:translateY(0)}
+}
+@-o-keyframes backsix
+{
+    	from{ transform:translateY(-400px)}
+    	to{transform:translateY(0)}
+}
+@-webkit-keyframes backsix
+{
+        from{ -webkit-transform:translateY(-400px)}
+        to{-webkit-transform:translateY(0)}
+}
+/*背景seven*/
+@keyframes backseven
+{
+    	from{ transform:translateY(-500px)}
+    	to{ transform:translateY(0)}
+}
+@-moz-keyframes backseven
+{
+    	from{ transform:translateY(-500px)}
+    	to{transform:translateY(0)}
+}
+@-o-keyframes backseven
+{
+    	from{ transform:translateY(-500px)}
+    	to{transform:translateY(0)}
+}
+@-webkit-keyframes backseven
+{
+        from{ -webkit-transform:translateY(-500px)}
+        to{-webkit-transform:translateY(0)}
+}
+
+/*背景eight*/
+@keyframes backeight
+{
+    	from{ transform:translateY(-420px)}
+    	to{ transform:translateY(0)}
+}
+@-moz-keyframes backeight
+{
+    	from{ transform:translateY(-420px)}
+    	to{transform:translateY(0)}
+}
+@-o-keyframes backeight
+{
+    	from{ transform:translateY(-420px)}
+    	to{transform:translateY(0)}
+}
+@-webkit-keyframes backeight
+{
+        from{ -webkit-transform:translateY(-420px)}
+        to{-webkit-transform:translateY(0)}
+}
+
+
+/*背景night*/
+@keyframes backnight
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-moz-keyframes backnight
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-o-keyframes backnight
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-webkit-keyframes backnight
+{
+        from{-webkit-transform:scale(0)}
+        to{-webkit-transform:scale(1); opacity:1}
+}
+/*背景ten*/
+@keyframes backten
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-moz-keyframes backten
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-o-keyframes backten
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-webkit-keyframes backten
+{
+        from{-webkit-transform:scale(0)}
+        to{-webkit-transform:scale(1); opacity:1}
+}
+
+
+/*驾驶行为*/
+@keyframes drive1
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-moz-keyframes drive1
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-o-keyframes drive1
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-webkit-keyframes drive1
+{
+        from{-webkit-transform:scale(0)}
+        to{-webkit-transform:scale(1); opacity:1}
+}
+/*驾驶人员*/
+@keyframes drivemen
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-moz-keyframes drivemen
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-o-keyframes drivemen
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-webkit-keyframes drivemen
+{
+        from{-webkit-transform:scale(0)}
+        to{-webkit-transform:scale(1); opacity:1}
+}
+/*驾驶违章*/
+@keyframes illegal
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-moz-keyframes illegal
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-o-keyframes illegal
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-webkit-keyframes illegal
+{
+        from{-webkit-transform:scale(0)}
+        to{-webkit-transform:scale(1); opacity:1}
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*登录*/
+.login_al{background:rgba(000,000,000,0.5); width:100%; position:absolute; z-index:10 }
+
+/*了解以旧换新活动*/
+.register_sd{ position:absolute; width:500px; height:340px; background:#fff;position:absolute;left:50%;margin-left:-250px;margin-top:200px; border-radius:8px; box-shadow:3px 3px 8px #666,-3px -3px 8px #666;
+         transform:scale(0);
+	     -webkit-transform:scale(0);
+	      -moz-transform:scale(0);
+	    -ms-transform:scale(0);
+		-o-transform:scale(0);
+	  
+
+
+
+}
+.register_sd .al_titel{ width:500px;background:#ff6600; height:40px;border-radius:8px 8px 0 0;}
+.register_sd .al_titel h4{font-size:16PX;font-family:"微软雅黑"; float:left;height:40px; color:#fff; line-height:40px; padding-left:50px; border-bottom:1px solid #ccc;  background: url(../images/sl0101.png) 10px 6px no-repeat;}
+
+.register_sd .al_titel label{font-size:12px;font-family:"微软雅黑"; color:#fff; display:block; height:40px; line-height:40px; float: right; margin-right:10px}
+.register_sd .al_titel .close_a{ width:32px; height:32px; background-image:url(../images/sl0102.png); background-size:28px; background-repeat:no-repeat; background-position:center; cursor:pointer; margin-right:10px; margin-top:3px; float:right; display:block;}
+.register_sd .news{ width:500px; height:260px; padding-top:40px;}
+.register_sd .news p{ width:360px; color:#666;font-size:14PX;font-family:"微软雅黑"; line-height:28px; margin:auto; text-align:center;}
+
+/*了解免费赠送活动*/
+.give{ position:absolute; width:500px; height:340px; background:#fff;position:absolute;left:50%;margin-left:-250px;margin-top:600px; border-radius:8px; box-shadow:3px 3px 8px #666,-3px -3px 8px #666;
+         transform:scale(0);
+	     -webkit-transform:scale(0);
+	      -moz-transform:scale(0);
+	    -ms-transform:scale(0);
+		-o-transform:scale(0);
+	  
+
+
+
+}
+.give .al_titel{ width:500px;background:#ff6600; height:40px;border-radius:8px 8px 0 0;}
+.give .al_titel h4{font-size:16PX;font-family:"微软雅黑"; float:left;height:40px; color:#fff; line-height:40px; padding-left:50px; border-bottom:1px solid #ccc;  background: url(../images/sl0101.png) 10px 6px no-repeat;}
+
+.give .al_titel label{font-size:12px;font-family:"微软雅黑"; color:#fff; display:block; height:40px; line-height:40px; float: right; margin-right:10px}
+.give .al_titel .close_a{ width:32px; height:32px; background-image:url(../images/sl0102.png); background-size:28px; background-repeat:no-repeat; background-position:center; cursor:pointer; margin-right:10px; margin-top:3px; float:right; display:block;}
+.give .news{ width:500px; height:260px; padding-top:40px;}
+.give .news p{ width:360px; color:#666;font-size:14PX;font-family:"微软雅黑"; line-height:28px; margin:auto; text-align:center;}
+
+/*购买咨询*/
+.good_zx{ position:absolute; width:500px; height:340px; background:#fff;position:absolute;left:50%;margin-left:-250px;margin-top:900px; border-radius:8px; box-shadow:3px 3px 8px #666,-3px -3px 8px #666;
+         transform:scale(0);
+	     -webkit-transform:scale(0);
+	      -moz-transform:scale(0);
+	    -ms-transform:scale(0);
+		-o-transform:scale(0);
+	  
+
+
+
+}
+.good_zx .al_titel{ width:500px;background:#ff6600; height:40px;border-radius:8px 8px 0 0;}
+.good_zx .al_titel h4{font-size:16PX;font-family:"微软雅黑"; float:left;height:40px; color:#fff; line-height:40px; padding-left:50px; border-bottom:1px solid #ccc;  background: url(../images/sl01019.png) 10px 6px no-repeat;}
+
+.good_zx .al_titel label{font-size:12px;font-family:"微软雅黑"; color:#fff; display:block; height:40px; line-height:40px; float: right; margin-right:10px}
+.good_zx .al_titel .close_a{ width:32px; height:32px; background-image:url(../images/sl0102.png); background-size:28px; background-repeat:no-repeat; background-position:center; cursor:pointer; margin-right:10px; margin-top:3px; float:right; display:block;}
+.good_zx .news{ width:500px; height:260px; padding-top:40px;}
+.good_zx .news p{ width:360px; color:#666;font-size:14PX;font-family:"微软雅黑"; line-height:28px; margin:auto; text-align:center;}
+
+
+
+
+
+/*弹出登录*/
+.login_al .login
+{       position:absolute;
+           left:50%;
+		   margin-left:-165px;
+		   
+        margin-top:200px;
+    	height:410px;
+    	width:370px;
+    	background:#fff;
+		-webkit-transform:translateY(-800px);
+		-moz-transform:translateY(-800px);
+		-ms-transform:translateY(-800px);
+		-o-transform:translateY(-800px);
+		
+    	
+		
+	
+}
+.login_translate{
+	 animation:login 0.5s ease-in-out 0s forwards;
+    	-moz-animation:login 0.5s ease-in-out  0s forwards; 
+    	-o-animation:login 0.5s ease-in-out 0s forwards; 
+    	-webkit-animation:login 0.5s ease-in-out 0s forwards;
+	
+	
+	}
+.register_translate{
+	  animation:register 0.5s ease-in-out 0s forwards;
+    	-moz-animation:register 0.5s ease-in-out  0s forwards; 
+    	-o-animation:register 0.5s ease-in-out 0s forwards; 
+    	-webkit-animation:register 0.5s ease-in-out 0s forwards;
+	
+	
+	}
+
+/*login*/
+@keyframes login
+{
+    	from{ transform:translateY(-800px); opacity:0}
+    	to{ transform:translateY(0);opacity:1}
+}
+@-moz-keyframes login
+{
+    	from{ transform:translateY(-800px); opacity:0}
+    	to{ transform:translateY(0);opacity:1}
+}
+@-o-keyframes login
+{
+    	from{ transform:translateY(-800px); opacity:0}
+    	to{ transform:translateY(0);opacity:1}
+}
+@-webkit-keyframes login
+{
+        from{-webkit-transform:translateY(-800px); opacity:0}
+    	to{ -webkit-transform:translateY(0);opacity:1}
+}
+/**/
+
+
+@keyframes register
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-moz-keyframes register
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-o-keyframes register
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-webkit-keyframes register
+{
+        from{-webkit-transform:scale(0)}
+        to{-webkit-transform:scale(1); opacity:1}
+}
+
+
+.login_al .exit{ height:100%; width:100%; display:block; position:absolute; }
+.login_al .login h3{ width:350px; height:53px; border-bottom:1px solid #f77410; line-height:53px; padding-left:20px; font-family:"微软雅黑"; font-size:16px; color:#f77410}
+.login_al .login ul{ margin-left:20px; margin-top:50px;}
+.login_al .login li{ width:330px; height:48px; border:1px solid #e4e4e4; border-radius:6px;}
+.login_al .login li:first-child label{ display:inline-block; width:66px; height:48px; background:#eee url(../images/lo_16.png) center no-repeat; border-right:1px solid #e4e4e4; float:left;}
+.login_al .login li:last-child label{ display:inline-block; width:66px; height:48px; background:#eee url(../images/lo_17.png) center no-repeat; border-right:1px solid #e4e4e4;float:left;}
+.login_al .login li input{ height:48px; width:250px; background:#fff; border:0;float:left; border-radius:6px; padding-left:10px; color:#666}
+.login_al .login li:last-child{ margin-top:20px; }
+.login_al .login .forget{ width:330px; height:50px; display:block; margin-left:20px; line-height:50px; font-family:"微软雅黑"; font-size:14px; color:#666; margin-top:20px;}
+.login_al .login .forget label{ float:right; margin-right:10px;}
+.login_al .login li input:focus{border: 1px solid #ffb889; background:#faf2ec; box-shadow:2px 2px 2px #e2faff,-2px -2px 2px #e2faff;}
+.login_al .login .forget label a{ display:inline-block;font-family:"微软雅黑"; font-size:14px; color:#d46f0a}
+
+.login_al .login button{ width:330px; height:48px; border-radius:8px; background:#53c0ff;font-family:"微软雅黑"; font-size:26px; color:#fff; box-shadow:4px 4px 6px #c7bbb0; border:0; margin-left:20px; margin-top:16px; cursor:pointer;}

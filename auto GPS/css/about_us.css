@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0; font-size:14px;}
+a{text-decoration:none;}
+li{ list-style: none}
+img{border:0;}
+.clear{ clear:both}
+
+	?@font-face{
+    font-family: "MOOC Font";
+    src: url(../images/FZZQJW.TTF);
+}
+body{ background-color:#eee;position:relative; }
+
+/*头部*/
+.head .right_ones li:nth-child(1) a{color:#fff;  font-family:"方正中倩简体"; font-size:16px;}
+.head .right_ones li:nth-child(1) {background:#f08519;}
+
+
+/**/
+.banner{ width:100%; height:220px; background:url(../images/sl01026.jpg) center no-repeat;}
+.main{width:1200px; height:1130px; margin:auto; background-color:#fff;}
+.main .left{ width:192px; height:1130px; border-right:1px solid #e6e9f6;float:left}
+
+.main .left .list_nav{ float:left;}
+
+.main .left li{ width:150px; height:30px; line-height:30px;  text-align:right; margin-top:46px; position:relative;}
+.main .left li a{color:#525252; font-size:16px; font-family:"微软雅黑";}
+.main .left li label{ display:inline-block; width:11px; height:11px; background-color:#e5e5e5; border-radius:6px; position:absolute;top:10px; left:187px;}
+.main .left li span{ display:block; width:30px; height:20px; position:absolute;left:172px; top:5px; background:url(../images/sl010284.png) no-repeat;}
+
+.main .right{ width:930px; float:right; padding-left:70px;}
+
+.main .right .one_h1{ height:60px; width:890px; border-bottom:1px solid #e5e8f6; line-height:60px; color:#666; font-size:30px; margin-top:40px; font-weight:normal;}
+
+.main .right .p_t1{width:890px; text-indent:2em; color:#747474;font-size:14px; font-family:"微软雅黑"; line-height:30px; margin-top:30px;}
+
+.main .right .two_h1{ height:60px; width:890px; border-bottom:1px solid #e5e8f6; line-height:60px; color:#666; font-size:30px; margin-top:40px; font-weight:normal;}
+.main .right .p_t2{width:890px; text-indent:2em; color:#747474;font-size:14px; font-family:"微软雅黑"; line-height:30px; margin-top:20px;}
+
+.main .right .copy_wo{font-size:14px; font-family:"微软雅黑"; line-height:30px;color:#747474; text-indent:2em; margin-top:10px;}
+.main .right .copy_wo a{ color:#ff6c00;}
+
+.main .right .three_h1{ height:60px; width:890px; border-bottom:1px solid #e5e8f6; line-height:60px; color:#666; font-size:30px; margin-top:40px; font-weight:normal;}
+
+.main .right .context{ width:350px; height:430px; margin-left:200px; margin-top:30px;text-align:center;}
+.main .right .context p{font-size:14px; font-family:"微软雅黑";color:#666; line-height:30px; }
+.main .right .context b{font-size:14px; font-family:"微软雅黑";color:#666; margin-top:20px; display:block}
+

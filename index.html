@@ -3,72 +3,215 @@
 <head>
 <meta charset="utf-8">
 <title>huangmingyu</title>
-<style>
-   *{ margin:0; padding:0;}
-   #div1{ width:300px;  height:300px; background:#ff6600; filter:alpha(opacity:30); opacity:0.3;}
-   #btn1{ color:#fff; background:orange; height:32px; width:120px; text-align:center; line-height:32px; font-family:"微软雅黑"; font-size:14px; border:0; border-radius:6px;}
- 
-</style>
-
-  <script>	
- window.onload= function()
-{
-      var oDiv = document.getElementById('div1');
-	  var oBtn= document.getElementById('btn1');
-	  oBtn.onclick=function(){
-		 window.open('esfwe.html','_blank') 
-	 }
-	  
-	 oDiv.onmouseover =function () 
-	 {
-		startMove(100) 
-	} 
-	 oDiv.onmouseout =function () 
-	 {
-		startMove(30) 
-	} 
-	  
-
-}
-///////////////////////////////////////////////////////////////////////////
-  var timer = null; 
-  var alpha=30;
-   function startMove(iTarget) 
-   {
-	   var oDiv = document.getElementById('div1');
-	  clearInterval(timer);
-	  timer = setInterval(function(){
-		  var speed=0;
-		  if(alpha<iTarget)
-		  {
-			 speed=10;  
-		  }else{
-			speed=-10;    
-		  }
-		  
-		  if(alpha==iTarget)
-		  {
-			  clearInterval(timer); 
-		  }else{
-			  
-		      alpha+=speed;
-			  oDiv.style.filter='alpha(opacity:'+alpha+';)';
-			   oDiv.style.opacity=alpha/100;
-		 }
-		      
-	   },30);
-	}
-
-
-  </script>
-
+<link href="css/index.css" type="text/css" rel="stylesheet"/>
 </head>
-  
 <body>
-<div id="div1">
-<a href="esfwe.html" target="_blank"></a>
-</div>
-
-<button id="btn1">关于我</button>
-</body>
-</html>
+<div id="head">
+	<div id="content">
+		<div class="left">
+			<div>
+				<span></span><img src="images/user_1.png"/>&nbsp;&nbsp;<label>个人简历</label>
+			</div>
+		</div>
+		<div id="ri" class="right">
+			<ul id="ul1">
+				<li>首页</li>
+				<li>我的作品</li>
+				<li>我的经验</li>
+				<li>专业技能</li>
+				<li>关于我</li>
+			</ul>
+			<label id="line"></label>
+		</div>
+	</div>
+	<!--个人信息-->
+	<div class="main">
+		<div class="Introduction">
+			<div class="I_left">
+				<img src="images/me.png"/>
+				<span> 黄铭裕</span>
+				<label>应聘职位-UI设计</label>
+			</div>
+			<div class="I_right">
+				<div class="world">
+					<span class="w_le">我的</span>
+					<span class="w_ri">格言</span>
+				</div>
+				<p>
+					梦想就像夜空中的星，我不断的去仰望，为了选取那颗最闪耀的。
+				</p>
+				<div class="line">
+				</div>
+				<div class="detail">
+					<ul class="ones">
+						<li>工作年龄-2年</li>
+						<li>我的年龄-24岁</li>
+					</ul>
+					<ul class="two">
+						<li>我的专业-视觉传达设计</li>
+						<li>我的电话-15976895429</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--我的作品-->
+	<div id="works">
+		<h2 class="my_w">我的作品/<label>works</label></h2>
+		<span id="subtitle">个人往期工作的项目及作品展示</span>
+		<div class="line">
+		</div>
+		<ul id="product" class="the_1">
+			<li><img src="images/pro_1.png"/>
+			<div class="new" id="new">
+           
+				<h4>时代创想-APP项目</h4>
+				<div class="xian">
+				</div>
+				<p>
+					时代创想是一个致力于帮助互联网创业者找合伙人、找项目、找办公基础设备的的服务平台。
+				</p>
+				<div class="box_l" id="box_l">
+					<span class="look">365</span>| <span class="like">265</span>
+				</div>
+			</div>
+			</li>
+			<li><img src="images/pro_2.png"/>
+			<div class="new" id="new">
+				<h4>沃管车-企事业车辆管理平台</h4>
+				<div class="xian">
+				</div>
+				<p>
+					企事业单位通过安装我们的智能硬件然后注册我们的沃管车app应用对绑定车辆进行管理...
+				</p>
+				<div class="box_l" id="box_l">
+					<span class="look">365</span>| <span class="like">265</span>
+				</div>
+			</div>
+			</li>
+			<li><img/>
+			<div class="new" id="new">
+				<h4>时代创想-APP项目</h4>
+				<div class="xian">
+				</div>
+				<p>
+					时代创想是一个致力于帮助互联网创业者找合伙人、找项目、找办公基础设备的的服务平台。
+				</p>
+				<div class="box_l" id="box_l">
+					<span class="look">365</span>| <span class="like">265</span>
+				</div>
+			</div>
+			</li>
+		</ul>
+		<ul id="" class="the_2">
+			<li><img/>
+			<div class="new" id="new">
+				<h4>时代创想-APP项目</h4>
+				<div class="xian">
+				</div>
+				<p>
+					时代创想是一个致力于帮助互联网创业者找合伙人、找项目、找办公基础设备的的服务平台。
+				</p>
+				<div class="box_l" id="box_l">
+					<span class="look">365</span>| <span class="like">265</span>
+				</div>
+			</div>
+			</li>
+			<li><img/>
+			<div class="new" id="new">
+				<h4>时代创想-APP项目</h4>
+				<div class="xian">
+				</div>
+				<p>
+					时代创想是一个致力于帮助互联网创业者找合伙人、找项目、找办公基础设备的的服务平台。
+				</p>
+				<div class="box_l" id="box_l">
+					<span class="look">365</span>| <span class="like">265</span>
+				</div>
+			</div>
+			</li>
+			<li><img/>
+			<div class="new" id="new">
+				<h4>时代创想-APP项目</h4>
+				<div class="xian">
+				</div>
+				<p>
+					时代创想是一个致力于帮助互联网创业者找合伙人、找项目、找办公基础设备的的服务平台。
+				</p>
+				<div class="box_l" id="box_l">
+					<span class="look">365</span>| <span class="like">265</span>
+				</div>
+			</div>
+			</li>
+		</ul>
+		<ul id="" class="the_3">
+			<li><img/>
+			<div class="new" id="new">
+				<h4>时代创想-APP项目</h4>
+				<div class="xian">
+				</div>
+				<p>
+					时代创想是一个致力于帮助互联网创业者找合伙人、找项目、找办公基础设备的的服务平台。
+				</p>
+				<div class="box_l" id="box_l">
+					<span class="look">365</span>| <span class="like">265</span>
+				</div>
+			</div>
+			</li>
+			<li><img/>
+			<div class="new" id="new">
+				<h4>时代创想-APP项目</h4>
+				<div class="xian">
+				</div>
+				<p>
+					时代创想是一个致力于帮助互联网创业者找合伙人、找项目、找办公基础设备的的服务平台。
+				</p>
+				<div class="box_l" id="box_l">
+					<span class="look">365</span>| <span class="like">265</span>
+				</div>
+			</div>
+			</li>
+			<li><img/>
+			<div class="new" id="new">
+				<h4>时代创想-APP项目</h4>
+				<div class="xian">
+				</div>
+				<p>
+					时代创想是一个致力于帮助互联网创业者找合伙人、找项目、找办公基础设备的的服务平台。
+				</p>
+				<div class="box_l" id="box_l">
+					<span class="look">365</span>| <span class="like">265</span>
+				</div>
+			</div>
+			</li>
+		</ul>
+	</div>
+	<!--我的经验-->
+	<div class="experience">
+		<div id="ex_show">
+			<h2 class="my_w">我的经验/<label>experience</label></h2>
+			<span id="subtitle">个人往期工作经验展示</span>
+			<div class="line">
+			</div>
+			<div id="me_talk">
+				<div class="left">
+					<p>
+						2014年开始了我的职业生涯,目前能够熟练使用Photoshop、illustrator、CoreDraw、deamweaver等，设计制图工具。我热爱设计喜欢专研设计这就是我。同时我也热爱互联网行业，大学时候的一门选修课网页设计让我接触了H5等开发应用看到自己的东西在界面上产生交互给我带来很大 的振奋。所以兴趣所使我也学了HTML、JavaScript、ajax、json、bootstrap、等前端开发知识。现在对前端也有一定的基础。
+					</p>
+				</div>
+				<div class="right">
+					<img src="images/me.png"/>
+				</div>
+			</div>
+			<div class="company">
+                <ul> 
+                   <li> <img src="images/jk_04.png"></li>
+                    <li> <img src="images/jk_04.png"></li>
+                </ul>
+			</div>
+            <div class="nav"><span class="ones"></span> &nbsp;<span class="two"></span></div>
+		</div>
+	</div>
+	</body>
+	</html>
+	<script src="JS/index.js"></script>

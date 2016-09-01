@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>首页</title>
+
+<link href="css/conmment.css" type="text/css" rel="stylesheet"/>
+<link href="css/introduce_OBD.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<!--头部-->
+
+
+<div class="head_scroll" id="head">
+   <div class="opsity"></div>
+   <div class="head"> <a href="#"><img class="logo" src="images/logo.png"/></a>
+    <div class="right">
+       <ul class="right_ones">
+        <li><a href="index.html" target="_self" >首页</a></li>
+        <li><a href="function2.html"  target="_self">功能介绍</a></li>
+        <li><a href="app.html"  target="_self">APP下载</a></li>
+        <li><a href="product2.html"  target="_self">智能硬件</a></li>
+        
+      </ul>
+       <ul class="right_two">
+        <li><a class="login"href="http://w.wo365.net" target="_self">登录</a></li>
+        <li><a class="register" href="#">注册</a></li>
+      </ul>
+     </div>
+  </div>
+ </div>
+ <div class="top_mar"></div>
+<!--banner-->
+<div class="banner"></div>
+<div class="main">
+    <h2>OBD数据线功能</h2>
+    <ol>
+        <li> <label></label>内置双处理器，处理响应速度更快，是单核产品的 5 倍以上。</li>
+        <li> <label></label>支持令牌数据访问，实现数据的安全访问。</li>
+        <li> <label></label>支持多种汽车协议，实现与汽车的各种控制模块进行诊断通讯，标准OBDII接口支持，支持OBDII规定的全部协议，兼容市面上绝大部分车型。</li>
+        <li> <label></label>支持车辆实时数据流自动发送，上位机无需发送指令，直接接收数据即可。</li>
+        <li> <label></label>支持瞬时油耗、平均油耗及本次耗油量、累计耗油量等车辆统计数据流。</li>
+        <li> <label></label>精确行驶里程算法，支持汽车本次行驶里程、累计行驶里程、总里程</li>
+        <li> <label></label>支持车辆故障码诊断，两条指令即可完成故障码的读取和清除。</li>
+        <li><label></label>自动休眠唤醒机制，汽车发动机熄火20秒后自动休眠，着车后自动唤醒。</li>
+        <li><label></label>车规级抗干扰设计，高集成度，超低功耗。</li>
+    </ol>
+ </div>   
+    <div class="piu_one"></div>
+    <div class="piu_two"></div>
+
+
+
+
+<!--底部-->
+<div class="footer">
+    <div class="f_conten">
+       <div class="l_ones">
+         <ul>
+              <li><a href="about_us.html" target="_self">关于我们</a> </li>
+              <li><a  href="cooperation.html"  target="_self">商务合作</a> </li>
+              <li><a href="http://m.wo365.net" target="_blank">管理平台</a> </li>
+         </ul>
+         <div class="clear"></div>
+         <p>CopyRight © 2011-2016 <a href="www.autogps.cn" target="_blank"> AUTOGPS All </a>Rights Reserved  <a href="www.miitbeian.gov.cn" target="_blank">粤ICP备13027497号-4</a></p>
+       </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script>
+    $(document).ready(function() {
+	
+      $("#company").click(function(){
+		 
+		$(this).css({"background":"#2099ff","color":"#fff"});
+		  $("#woguan").css({"background":"#e4ebf2","color":"#666"});
+		  $("#call_us").css({"background":"#e4ebf2","color":"#666"});
+		  
+		  $(".text_js").fadeIn();
+		  $(".text_wgc").fadeOut();
+		  $(".text_call").fadeOut();
+		
+	})
+	$("#woguan").click(function(){
+		 $(this).css({"background":"#2099ff","color":"#fff"});
+		  $("#company").css({"background":"#e4ebf2","color":"#666"});
+		  $("#call_us").css({"background":"#e4ebf2","color":"#666"});
+		  
+		  $(".text_js").fadeOut();
+		  $(".text_wgc").fadeIn();
+		  $(".text_call").fadeOut();
+	})
+	$("#call_us").click(function(){
+		 $(this).css({"background":"#2099ff","color":"#fff"});
+		 $("#woguan").css({"background":"#e4ebf2","color":"#666"});
+		  $("#company").css({"background":"#e4ebf2","color":"#666"});
+		  
+		   $(".text_js").fadeOut();
+		  $(".text_wgc").fadeOut();
+		  $(".text_call").fadeIn();
+	})
+});
+
+
+
+</script>
+<!--<script type="text/javascript" src="js/script.js"></script>-->

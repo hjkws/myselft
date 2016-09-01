@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE-edge", chrome="1"><!--让css3属性兼容低版本IE浏览器-->
+<meta name="viewport" content="width=device-width", intial-scale="1"><!--内容等于设备的宽度且不允许用户缩放-->
+ <title>APP下载</title>
+ <link href="css/conmment.css" type="text/css" rel="stylesheet"/>
+ <link href="css/app.css" rel="stylesheet" type="text/css" />
+ </head>
+ 
+ <body>
+<!--头部-->
+<div class="main">
+<div class="head_scroll" id="head">
+   <div class="opsity"></div>
+   <div class="head"> <a href="#"><img class="logo" src="images/logo.png"/></a>
+    <div class="right">
+       <ul class="right_ones">
+        <li><a href="cloud2.html" target="_self" >首页</a></li>
+        <li><a href="function2.html"  target="_self">功能介绍</a></li>
+        <li><a href="app.html"  target="_self">APP下载</a></li>
+        <li><a href="product2.html"  target="_self">智能硬件</a></li>
+        
+      </ul>
+       <ul class="right_two">
+        <li><a class="login" href="login.html"  target="_self">登录</a></li>
+        <li><a class="register" href="#">注册</a></li>
+      </ul>
+     </div>
+  </div>
+ </div>
+  <div class="top_mar"></div>
+ 
+
+<!--主体-->
+<div class="center">
+     <div class="content">
+          <h2 class="h2_title"></h2>
+          
+       
+         <span class="sms">
+            <input type="text" placeholder="请输入手机号，免费发送下载短信"/>
+            <button>发送</button>
+         </span>
+         <ul>
+            <li><div id="first_li"></div> <label id="ios">IOS</label><span class="line"></span></li>
+             <li><div id="two_li"></div> <label>Android</label> <span class="line2"></span></li>
+              <li><div id="three_li"></div> <label>关注微信公众号下载客户端</label><span class="line3"></span></li>
+         </ul>
+     
+     </div>
+     
+   
+</div>
+
+  <footer class="footer" style=" height:70px;">
+   <label class="copy">CopyRight © 2012-2015 <a href="www.autogps.cn" target="_blank">AUTOGPS</a> All Rights Reserved     <a href="www.miitbeian.gov.cn" target="_blank">粤ICP备13027497号</a></label>
+</footer>
+ </div>
+
+</body>
+ </html>
+<script src="js/jquery-1.7.2.js"></script>
+<script>
+      $(document).ready(function(){
+		  var HTOP = $("#head").height();
+		   var H_main = $(".main").height();
+		  
+		   var Hf = $(".footer").height();
+		    var H_center = $(".center").height(H_main-Hf-HTOP);
+			
+			var H_content = $(".content").height(H_main-Hf);
+			
+			
+		   
+		  $("#first_li").hover(function(){
+			
+				  $(".line").animate({'width':'60px','height':'2px','background':'#999'},1000);
+				 
+			 
+			  
+			  },function(){
+				   $(".line").animate({'width':'0px','height':'2px','background':'#999'},1000);
+				  
+			})
+			
+			 $("#two_li").hover(function(){
+			 
+			  $(".line2").animate({'width':'80px','height':'2px','background':'#999'},1000);
+			  
+			  },function(){
+				   $(".line2").animate({'width':'0px','height':'2px','background':'#999'},1000);
+				  
+			})
+			
+			 $("#three_li").hover(function(){
+			 
+			  $(".line3").animate({'width':'110px','height':'2px','background':'#999'},1000);
+			  
+			  },function(){
+				   $(".line3").animate({'width':'0px','height':'2px','background':'#999'},1000);
+				  
+			})
+		
+		  
+		  
+		  })
+ </script>

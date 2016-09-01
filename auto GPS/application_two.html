@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>行业应用</title>
+
+<link href="css/conmment.css" type="text/css" rel="stylesheet"/>
+<link href="css/application_two.css"  type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<!--头部-->
+
+
+<div class="head_scroll" id="head">
+   <div class="opsity"></div>
+   <div class="head"> <a href="#"><img class="logo" src="images/logo.png"/></a>
+    <div class="right">
+       <ul class="right_ones">
+        <li><a href="index.html" target="_self" >首页</a></li>
+        <li><a href="function2.html"  target="_self">功能介绍</a></li>
+        <li><a href="app.html"  target="_self">APP下载</a></li>
+        <li><a href="product2.html"  target="_self">智能硬件</a></li>
+        
+      </ul>
+       <ul class="right_two">
+        <li><a class="login"href="http://w.wo365.net" target="_self">登录</a></li>
+        <li><a class="register" href="#">注册</a></li>
+      </ul>
+     </div>
+  </div>
+ </div>
+ <div class="top_mar"></div>
+<!--banner-->
+<div class="banner"></div>
+<div class="main">
+   <div class="box_1">
+       <h3 class="top_title">沃管车在商砼企业的应用</h3>
+       <p class="auther">发布时间： 2016-04-01 16:05:28   作者：管理员 </p>
+       <p class="text_1">以独有的沃管车智能终端为基础，运用动态位置信息化平台系统解决车辆安全驾驶、规范运输和科学调度等问题，实时掌控车辆动态信息，工地任务信息，通过远程采集数据如滚筒正反转信息、超速信息、燃油信息、数据统计分析、运行报表等进行挖掘分析，服务于客户的管理与决策。</p>
+       <h5 class="title_two">建设目标</h5>
+       
+       <img class="piu_1" src="images/sl010277.jpg"/>
+       <h5 class="title_three">功能细分</h5>
+        <img class="piu_2" src="images/sl010278.jpg"/>
+      
+       
+       
+   </div>
+   <div class="box_2">
+   
+    <h5 class="title_four">价值收益</h5>
+       <img class="piu_3" src="images/sl010279.jpg"/>
+     </div>
+
+</div>
+
+
+
+<!--底部-->
+<div class="footer">
+    <div class="f_conten">
+       <div class="l_ones">
+         <ul>
+              <li><a href="about_us.html" target="_self">关于我们</a> </li>
+              <li><a href="cooperation.html"  target="_self">商务合作</a> </li>
+              <li><a href="http://m.wo365.net" target="_blank">管理平台</a> </li>
+         </ul>
+         <div class="clear"></div>
+         <p>CopyRight © 2011-2016 <a href="www.autogps.cn" target="_blank"> AUTOGPS All </a>Rights Reserved  <a href="www.miitbeian.gov.cn" target="_blank">粤ICP备13027497号-4</a></p>
+       </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script>
+    $(document).ready(function() {
+	
+      $("#company").click(function(){
+		 
+		$(this).css({"background":"#2099ff","color":"#fff"});
+		  $("#woguan").css({"background":"#e4ebf2","color":"#666"});
+		  $("#call_us").css({"background":"#e4ebf2","color":"#666"});
+		  
+		  $(".text_js").fadeIn();
+		  $(".text_wgc").fadeOut();
+		  $(".text_call").fadeOut();
+		
+	})
+	$("#woguan").click(function(){
+		 $(this).css({"background":"#2099ff","color":"#fff"});
+		  $("#company").css({"background":"#e4ebf2","color":"#666"});
+		  $("#call_us").css({"background":"#e4ebf2","color":"#666"});
+		  
+		  $(".text_js").fadeOut();
+		  $(".text_wgc").fadeIn();
+		  $(".text_call").fadeOut();
+	})
+	$("#call_us").click(function(){
+		 $(this).css({"background":"#2099ff","color":"#fff"});
+		 $("#woguan").css({"background":"#e4ebf2","color":"#666"});
+		  $("#company").css({"background":"#e4ebf2","color":"#666"});
+		  
+		   $(".text_js").fadeOut();
+		  $(".text_wgc").fadeOut();
+		  $(".text_call").fadeIn();
+	})
+});
+
+
+
+</script>
+<!--<script type="text/javascript" src="js/script.js"></script>-->

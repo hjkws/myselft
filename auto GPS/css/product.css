@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0; font-size:14px;}
+a{text-decoration:none;}
+li{ list-style: none}
+img{border:0;}
+.clear{ clear:both}
+
+	?@font-face{
+    font-family: "MOOC Font";
+    src: url(../images/FZZQJW.TTF);
+}
+
+/*头部*/
+.head_scroll{ height:80px; width:100%; z-index:5; position:fixed; }
+.head_scroll .opsity{ height:80px; width:100%; background:rgba(255, 255, 255, 0.8);  position:absolute; z-index:-6}
+.sd_top{height:80px; width:100%; z-index:5}
+.head{ width:1240px; height:80px; margin:auto; }
+.head .logo{ float:left;}
+
+.head .right{ float:right; width:760px; }
+.head .right_ones{ float:left;  height:34px; margin-top:27px;}
+.head .right_ones li{ float:left; margin-left:12px;border-radius:17px; width:94px; height:34px;}
+
+.head .right_ones li a{ display:block; font-family:"方正中倩简体"; font-size:18PX; color:#333333; line-height:34px; text-align:center;}
+.head .right_ones li:first-child a{ color:#000; font-family:"方正中倩简体"; font-size:18px;}
+.head .right_ones li:hover{border-radius:17px;border-radius:17px; background:#e5e5e5;}
+
+.head .right_two{ width:186px; height:36px; float:left; margin:26px 0 0 20PX; line-height:30px; background: url(../images/down.png) 130px 14px no-repeat;}
+.head .right_two label{ color:#7f7f7f;font-size:14px; font-family:"方正中倩简体"; margin-left:50px;}
+
+/*头部子导*/
+.main{ width:1240px; height:800px; margin:auto;}
+.main .top_margin{ width:1240px;height:80px;}
+.main .subnav{ width:1240px; height:50px;}
+.main .subnav h6{ font-family:"微软雅黑"; font-size:18px; font-weight: normal; height:50px; line-height:50px; float:left;}
+.main .left_list{ float:right; }
+.main .nav_list{ width:375px; height:50px;float:left; margin-top:10px;}
+
+.main .nav_list li {width:70px; height:26px; text-align:center; line-height:26px; color:#333333; font-size:16px; float:left; margin-left:25px;}
+.main .nav_list li a{ color:#333; font-size:16px;}
+.main .nav_list li:first-child{ margin-left:0;}
+.main .nav_list li:first-child a{ color:#f08519;}
+.main .nav_list li:last-child{ margin-left:18;}
+.main .subnav { float:left;}
+.main .list_use{ float:left; margin-top:10px;}
+.main .list_use li{ width:100px; height:26px; background:#f08519; float:left; color:#fff; text-align:center; line-height:26px;}
+.main .list_use li a{color:#fff;}
+.main .list_use li:last-child{ margin-left:10px;}
+
+/*产品展示*/
+.main .product{ width:1240px; height:650px;}
+.product .p_left{ width:700px; height:650px; float:left;}
+.product .p_left ul{ margin-top:86px; float:left;}
+.product .p_left ul li{ width:69px; height:69px; border:1px solid #e0e0e0; margin-top:15px;}
+.product .p_left ul li:first-child{ background: url(../images/product_01.jpg) no-repeat center; margin-top:0px;}
+.product .p_left ul li:nth-child(2){ background: url(../images/product_02.jpg) no-repeat center;}
+.product .p_left ul li:last-child{ background: url(../images/product_03.jpg) no-repeat center;}
+.product .p_left ol{ margin-top:86px; float:left; margin-left:75px; }
+.product .p_left ol li{width:547px; height:525px; background:url(../images/product_04.jpg) no-repeat center;}
+
+.product .p_right{width:510px; height:650px; float:right;  padding-left:30px;}
+.product .p_right h2{ font-size:36px; font-family: "微软雅黑"; line-height:48px; color:#6a727a; margin-top:86px; font-weight:normal; margin-bottom:20px;}
+.product .p_right p{ font-size:16px; font-family: "微软雅黑"; line-height:32px; color:#6a727a;}
+.product .p_right span{ display:block; font-size:24px; font-family:"微软雅黑";color:#f08519; margin-top:10px;}
+.product .p_right span label{font-size:48px; font-family:"微软雅黑"; color:#f08519;}
+.product .p_right .text{font-size:18px; font-family:"微软雅黑"; color:#f08519;  margin-top:10px; display:block;}
+.product .p_right .button{ width:140px; height:36px; margin-top:20px;}
+
+
+.main .show{ width:1240px; height:848px;}
+.main .show h3{ font-family:"微软雅黑"; font-size:48px; color:#545050; width:1240px; text-align:center; font-weight:normal; margin-top:113px; margin-bottom:50px;}
+.main .show .l_ones{ width:415px; height:564px; float:left; background:url(../images/033.png) no-repeat 42px 25px;  padding-right:75px; margin-left:80px;}
+.main .show .l_ones h4{font-family:"微软雅黑"; font-size:36px;color:#6a727a; text-align:right; margin-top:286px; font-weight:normal;}
+.main .show .l_ones p{font-family:"微软雅黑"; font-size:16px;color:#6a727a; line-height:32px; text-align:right; margin-top:10px; }
+.main .show .l_ones .price{ font-size:20px;font-family:"微软雅黑"; color:#f08519; text-align:right; display:block; margin-top:12px;}
+.main .show .l_ones .price label{font-family:"微软雅黑"; font-size:34px;color:#f08519;}
+.main .show .l_ones ul{ float:right; margin-top:20px;}
+.main .show .l_ones ul li{ width:140px; height:36px; float:left; text-align:center; line-height:36px;}
+.main .show .l_ones ul li:first-child{ border:1px solid  #f08519 ; margin-right:20px; width:138px; height:34px}
+
+.main .show .l_two{ width:460px; height:564px; float:left; background:url(../images/033.png) no-repeat 0px 0px;margin-left:100px; padding-left:30px; }
+.main .show .l_two h4{font-family:"微软雅黑"; font-size:36px;color:#6a727a; text-align:left; margin-top:286px;font-weight:normal; }
+.main .show .l_two p{font-family:"微软雅黑"; font-size:16px;color:#6a727a; line-height:32px;margin-top:10px; }
+.main .show .l_two .price{ font-size:20px;font-family:"微软雅黑"; color:#f08519;  display:block; margin-top:12px;}
+.main .show .l_two .price label{font-family:"微软雅黑"; font-size:34px;color:#f08519;}
+.main .show .l_two ul{ float:left; margin-top:20px;}
+.main .show .l_two ul li{ width:140px; height:36px; float:left; text-align:center; line-height:36px;}
+.main .show .l_two ul li:first-child{ border:1px solid  #f08519 ; margin-right:20px; width:138px; height:34px}
+
+/*功能监控*/
+.main .function{ width:1240px; height:762px;  background: url(../images/036.jpg) repeat-x;}
+.main .function .picture{ width:664px; height:762px; float:left; background: url(../images/dk_1.png) no-repeat;animation: functioncar 0.6s ease-in-out .2s forwards; }
+.main .function .right_text{ font-size:16px; color:#484848; font-family:"微软雅黑"; width:576px; height:762px; float:left; overflow:hidden;}
+.function .right_text .cartoon{width:460px; display:block; margin-top:230px; animation:title 0.8s ease-in-out .6s forwards; opacity:0;}
+.main .function .right_text h4{ font-size:48px; color:#484848; font-family:"微软雅黑"; font-weight:normal;}
+.main .function .right_text p{ font-size:16px; color:#484848; font-family:"微软雅黑"; line-height:28px; width:460px; margin-top:20px;}
+
+
+@keyframes functioncar{
+	0%{
+	  background-position:-664px 0px;
+	  }
+	100%{
+		background-size:0px 0px;
+		  }
+}
+@keyframes title{
+      0%{
+		 margin-top:400px; opacity:0;
+		 }
+	  100%{
+		 margin-top:230px; opacity:1; 
+		  }
+	
+}
+
+
+/*功能监控*/
+.main .manage{ width:1240px; height:754px;background: -webkit-linear-gradient(to left, #e2e2e2 , #f8f8f8); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #e2e2e2 , #f8f8f8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+.main .manage .left_text{ width:490px; height:754px;float:left;padding-left:90px;}
+.manage .left_text .cartoon{width:414px;display:block; margin-top:286px;animation:title 0.8s ease-in-out 1s forwards; opacity:0; }
+.main .manage .left_text h4{ font-size:48px; color:#484848; font-family:"微软雅黑"; font-weight:normal;  }
+.main .manage .left_text p{font-size:16px; color:#484848; font-family:"微软雅黑"; line-height:28px; width:414px; margin-top:20px; }
+.main .manage .right_picture{ width:660px; height:754px; float:right; background:url(../images/dk_13.png) no-repeat;background-position:right bottom; animation:hand 0.6s ease-in-out .2s forwards; }
+
+
+@keyframes hand{
+	0%{
+	  background-position:618px 0px;
+	  }
+	100%{
+		background-size:0px 0px;
+		  }
+}
+
+/*费用报销管理*/
+.main .money{ width:1240px; height:762px; background:#9C3; background:url(../images/dk_08.png) no-repeat;}
+.main .money .left_picture{ width:680px; height:762px; float:left;}
+.main .money .right_text{width:480px; height:762px; float:left;padding-left:80px; overflow:hidden}
+.main .money .right_text h4{ font-size:48px; color:#484848; font-family:"微软雅黑"; font-weight:normal; margin-top:126px; animation:headtitle 0.4s ease-in .6s forwards; opacity:0;}
+.main .money .right_text p{font-size:16px; color:#484848; font-family:"微软雅黑"; line-height:28px; width:460px; margin-top:20px; animation:moneymanage 0.4s ease-in .8s forwards; opacity:0;}
+
+@keyframes headtitle{
+	0%{
+	  transform:tanslate(500px,0px);-webkit-transform:translate(500px,0px); -moz-transform:translate(500px,0px);opacity:0;
+	  }
+	100%{
+		transform:tanslate(0px,0px);-webkit-transform:translate(0px,0);-moz-transform:translate(0px,0px);opacity:1;
+		  }
+}
+@keyframes moneymanage{
+	0%{
+	  transform:tanslate(0px,60px);-webkit-transform:translate(0px,60px); -moz-transform:translate(0px,60px);opacity:0;
+	  }
+	100%{
+		transform:tanslate(0px,0px);-webkit-transform:translate(0px,0);transform:translate(0px,0px);opacity:1;
+		  }
+}
+/**/
+.main .upkeep{width:1240px; height:762px;}
+.main .upkeep .left_text{ width:626px; height:762px; background: #f08519; float:left;}
+.main .upkeep .right_picture{ width:614px; height:762px; float:right; background: url(../images/dk_03.jpg) no-repeat center;}
+.main .upkeep .left_text h4{ font-size:48px; color:#fff; font-family:"微软雅黑"; font-weight:normal; margin-top:320px; margin-left:100px; width:626px;}
+.main .upkeep .left_text p{font-size:16px; color:#fff; font-family:"微软雅黑"; line-height:28px; margin-top:20px;margin-left:100px;}
+/**/
+.main .drive{width:490px; height:562px; background:url(../images/dk_04.png) no-repeat 60px 180px; padding-left:750px; padding-top:200px}
+.main .drive h4{ font-size:48px; color:#444; font-family:"微软雅黑"; font-weight:normal;}
+.main .drive p{font-size:16px; color:#444; font-family:"微软雅黑"; line-height:28px; margin-top:20px;}
+
+/*精确油耗管理*/
+.main .oil{width:1140px; height:472px; background: url(../images/oli.jpg)  no-repeat; padding-left:100px; padding-top:290px}
+.main .oil h4{ font-size:48px; color:#444; font-family:"微软雅黑"; font-weight:normal;}
+.main .oil p{font-size:16px; color:#444; font-family:"微软雅黑"; line-height:28px; margin-top:20px;}
+
+/**/
+.main .alert{width:1240px; height:672px;}
+.main .alert h4{ font-size:48px; color:#fff; font-family:"微软雅黑"; font-weight:normal; margin-top:300px; }
+.main .alert p{font-size:16px; color:#fff; font-family:"微软雅黑"; line-height:28px; margin-top:20px; width:425px;}
+.main .alert .right_text{ width:520px; height:762px; float:right; background:#ff5252; padding-left:100px;}
+.main .alert .left_picture{width:620px; height:762px; float:left; background:url(../images/dk_06.png) no-repeat 100px 147px;}
+
+/*蓝牙免提通话*/
+.main .take{ width:1140px; height:252px; background:url(../images/dk_18.jpg) no-repeat; padding-top:510px; padding-left:100px}
+.main .take h4{font-size:48px; color:#fff; font-family:"微软雅黑"; font-weight:normal; }
+.main .take p{font-size:16px; color:#fff; font-family:"微软雅黑"; line-height:28px; margin-top:20px; width:425px;}
+
+
+/*司机身份识别*/
+.main .identify{ width:1140px; height:522px; padding-top:240px; padding-left:100px;background-image: url(../images/dk_20.jpg), url(../images/dk_19.png); background-repeat:no-repeat;background-position:463px 443px, 720px 108px; }
+.main .identify h4{font-size:48px; color:#44; font-family:"微软雅黑"; font-weight:normal;}
+.main .identify p{font-size:16px; color:#444; font-family:"微软雅黑"; line-height:28px; margin-top:20px; width:440px;}
+
+/*OBD故障诊断*/
+.main .fault{ width:620px; height:212px; background:url(../images/dk_10.jpg) no-repeat; padding-left:620px; padding-top:510px;}
+.main .fault h4{font-size:48px; color:#fff; font-family:"微软雅黑"; font-weight:normal;}
+.main .fault p{font-size:16px; color:#fff; font-family:"微软雅黑"; line-height:28px; margin-top:20px; width:440px;}
+
+
+/*15天无理由退换*/
+.main .return{ width:1240px; height:532px; background:url(../images/dk_12.png) no-repeat 830px 220px; padding-top:230px;}
+.main .return h4{font-size:48px; color:#444; font-family:"微软雅黑"; font-weight:normal;}
+.main .return span{font-size:24px; color:#444; font-family:"微软雅黑";margin-top:15px; display:block;}
+.main .return p{font-size:16px; color:#444; font-family:"微软雅黑"; line-height:28px; margin-top:15px; width:610px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

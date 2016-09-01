@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0; font-size:14px;}
+a{text-decoration:none;}
+li{ list-style: none}
+img{border:0;}
+.clear{ clear:both}
+body{ }
+
+	@font-face{
+    font-family: "FZY1JW","MINI";
+    src: url(../font/FZY1JW.TTF) format('truetype'),
+	src:url(../font/MINI.TTF) format('truetype');
+	
+	font-weight:normal;
+	font-style:normal;
+}
+
+/*头部*/
+.head .right_ones li:nth-child(4) a{color:#fff;  font-family:"方正中倩简体"; font-size:16px;}
+.head .right_ones li:nth-child(4) {background:#f08519;}
+
+/*banner*/
+.banner{ width:100%; height:500px; background-color:#fe9c07; position:relative; }
+.banner .ban_main{ height:410px; width:1200px; margin:auto; position:relative;  padding-top:190px;}
+.banner .point{ width:100%; height:500px; background-image:url(../images/sl01017.png); background-position:center; background-repeat:repeat-x; position:absolute;}
+.banner  .ban_main .pictrue_w13{ width:726px; height:221px; background:url(../images/sl0105.png) center no-repeat; top:120px; left:50%; margin-left:-363px; position:absolute; z-index:1}
+.banner  .ban_main .h2{ width:841px; height:45px; background:url(../images/sl01015.png) center no-repeat; margin-left:178px;position:absolute; z-index:10}
+.banner  .button_ban{ height:90px; width:100%; background-image:url(../images/sl01016.png); background-repeat: repeat-x; position:absolute; bottom:0; background-position:center;}
+
+
+
+
+.banner .ban_main .tactangle{ width:6px; height:158px; position: absolute; border:3px solid #ffcc50; top:217px; left:50%; margin-left:-3px; opacity:0;
+        animation:main_title 0.9s ease-out 0.5s forwards;
+    	-moz-animation:main_title 0.9s ease-out  0.5s forwards; 
+    	-o-animation:main_title 0.9s ease-out 0.5s forwards; 
+    	-webkit-animation:main_title 0.9s ease-out 0.5s forwards;
+
+}
+
+/*主体*/
+.center{ width:1200px; margin:auto; padding-top:60px; }
+.center .introduce_title{ margin:auto; width:120px; height:24px; line-height:24px; color:#fff; background:#ff6600; text-align:center; border-radius:4px;}
+.center .list_ones li{ width:130px; height:195px; text-align:center; float:left; margin-left:86px; margin-top:20px}
+.center .list_ones li img{ margin-bottom:20px; margin-top:25px; }
+.center .list_ones li label{ display:block; width:22px; height:2px;  background-color:#cfcfcf; margin: auto;}
+.center .list_ones li h6{ font-family:"微软雅黑"; font-size:12px; color:#666; margin-top:20px; }
+
+.center .list_two { padding-left:200px;}
+.center .list_two li{ width:130px; height:195px; text-align:center; float:left; margin-right:86px; margin-top:20px}
+.center .list_two li img{ margin-bottom:20px; margin-top:25px; }
+.center .list_two li label{ display:block; width:22px; height:2px;  background-color:#cfcfcf; margin: auto;}
+.center .list_two li h6{ font-family:"微软雅黑"; font-size:12px; color:#666; margin-top:20px; }
+
+.center .argument{ width:1200px; height:48px; text-align:center; font-family:"微软雅黑"; font-size:26px; color:#403d3b; background:url(../images/sl01018.png) 546px 36px no-repeat; font-weight:normal; margin-top:40px;}
+.data{ width:100%; height:730px; background: url(../images/sl010280.jpg)  center no-repeat; margin-top:20px; margin-bottom:20px}
+
+
+
+/*标题*/
+@keyframes main_title
+{
+    	0%{border:0px; opacity:0; width:0px; border:3px solid #ffcc50;}
+    	100%{ border:3px solid #ffcc50;opacity:0.5; width:1280px; margin-left:-640px;}
+		
+}
+@-moz-keyframes main_title
+{
+    	0%{border:0px; opacity:0; width:0px; border:3px solid #ffcc50;}
+    	100%{ border:3px solid #ffcc50;opacity:0.5; width:1280px; margin-left:-640px;}
+		
+		
+}
+@-o-keyframes main_title
+{
+   0%{border:0px; opacity:0; width:0px; border:3px solid #ffcc50;}
+    	100%{ border:3px solid #ffcc50;opacity:0.5; width:1280px; margin-left:-640px;}
+		
+		
+}
+@-webkit-keyframes main_title
+{
+      0%{border:0px; opacity:0; width:0px; border:3px solid #ffcc50;}
+    	100%{ border:3px solid #ffcc50;opacity:0.5; width:1280px; margin-left:-640px;}
+		
+		
+}
+/*W13*/
+@keyframes w13
+{
+    	0%{background-size:0px 0px; opacity:0;transform-origin: center;}
+    	100%{ background-size:726px 221px; opacity:1;transform-origin: center;}
+		
+}
+@-moz-keyframes w13
+{
+    	0%{background-size:0px 0px; opacity:0;}
+    	100%{ background-size:726px 221px; opacity:1;transform-origin: center;}
+		
+		
+}
+@-o-keyframes w13
+{
+   0%{background-size:0px 0px; opacity:0;transform-origin: center;}
+    	100%{ background-size:726px 221px; opacity:1;transform-origin: center;}
+		
+		
+}
+@-webkit-keyframes w13
+{
+     0%{background-size:0px 0px; opacity:0;-webkit-transform-origin: center;}
+    	100%{ background-size:726px 221px; opacity:1;-webkit-transform-origin: center;}
+		
+		
+}
+
+
+
+
+
+
+
+
+/*宣传语*/
+@keyframes cloud
+{
+    	from{ transform:translateX(-300px); opacity:0;}
+    	to{ transform:translateX(0);opacity:1;}
+}
+@-moz-keyframes cloud
+{
+    	from{ transform:translateX(-300px); opacity:0;}
+    	to{ transform:translateX(0);opacity:1;}
+}
+@-o-keyframes cloud
+{
+    	from{ transform:translateX(-300px); opacity:0;}
+    	to{ transform:translateX(0);opacity:1;}
+}
+@-webkit-keyframes cloud
+{
+        from{ -webkit-transform:translateY(-300px); opacity:0;}
+    	to{ -webkit-transform:translateY(0);opacity:1;}
+}
+/*iocn*/
+@keyframes icon_8
+{
+    	from{ transform:translateX(-60px); opacity:0;}
+    	to{ transform:translateX(0);opacity:1;}
+}
+@-moz-keyframes icon_8
+{
+    	from{ transform:translateX(-60px); opacity:0;}
+    	to{ transform:translateX(0);opacity:1;}
+}
+@-o-keyframes icon_8
+{
+    	from{ transform:translateX(-60px); opacity:0;}
+    	to{ transform:translateX(0);opacity:1;}
+}
+@-webkit-keyframes icon_8
+{
+        from{ -webkit-transform:translateY(-60px); opacity:0;}
+    	to{ -webkit-transform:translateY(0);opacity:1;}
+}
+@keyframes icon_7
+{
+    	from{ transform:translateX(60px); opacity:0;}
+    	to{ transform:translateX(0);opacity:1;}
+}
+@-moz-keyframes icon_7
+{
+    	from{ transform:translateX(60px); opacity:0;}
+    	to{ transform:translateX(0);opacity:1;}
+}
+@-o-keyframes icon_7
+{
+    	from{ transform:translateX(60px); opacity:0;}
+    	to{ transform:translateX(0);opacity:1;}
+}
+@-webkit-keyframes icon_7
+{
+        from{ -webkit-transform:translateY(60px); opacity:0;}
+    	to{ -webkit-transform:translateY(0);opacity:1;}
+}
+
+/*缩放*/
+@keyframes register
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-moz-keyframes register
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-o-keyframes register
+{
+    	from{transform:scale(0)}
+    	to{transform:scale(1); opacity:1}
+}
+@-webkit-keyframes register
+{
+        from{-webkit-transform:scale(0)}
+        to{-webkit-transform:scale(1); opacity:1}
+}
+
+/*W13了解详情*/
+@keyframes w13_kown
+{
+    	from{ transform:translateY(60px); opacity:0;}
+    	to{ transform:translateY(0);opacity:1;}
+}
+@-moz-keyframes w13_kown
+{
+    	from{ transform:translateY(60px); opacity:0;}
+    	to{ transform:translateY(0);opacity:1;}
+}
+@-o-keyframes w13_kown
+{
+    	from{ transform:translateY(60px); opacity:0;}
+    	to{ transform:translateY(0);opacity:1;}
+}
+@-webkit-keyframes w13_kown
+{
+        from{ -webkit-transform:translateY(60px); opacity:0;}
+    	to{ -webkit-transform:translateY(0);opacity:1;}
+}
+
+/*盒子一*/
+@keyframes wave
+{
+    	from{transform:scaleX(0)}
+    	to{transform:scaleX(1); opacity:1}
+}
+@-moz-keyframes wave
+{
+    	from{transform:scaleX(0)}
+    	to{transform:scaleX(1); opacity:1}
+}
+@-o-keyframes wave
+{
+    	from{transform:scaleX(0)}
+    	to{transform:scaleX(1); opacity:1}
+}
+@-webkit-keyframes wave
+{
+        from{-webkit-transform:scaleX(0)}
+        to{-webkit-transform:scaleX(1); opacity:1}
+}
+/*背景ones*/
+
+@keyframes backones
+{
+    	from{ background-position:0 600px;}
+    	to{background-position:0 312px;opacity:1}
+}
+@-moz-keyframes backones
+{
+    	from{background-position:0 600px;}
+    	to{background-position:0 312px;opacity:1}
+}
+@-o-keyframes wbackones
+{
+    	from{background-position:0 600px;}
+    	to{background-position:0 312px;opacity:1}
+}
+@-webkit-keyframes backones
+{
+        from{background-position:0 600px;}
+        to{background-position:0 312px;opacity:1}
+}

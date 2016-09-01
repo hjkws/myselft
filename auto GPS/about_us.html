@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>关于我们</title>
+
+<link href="css/conmment.css" type="text/css" rel="stylesheet"/>
+<link href="css/about_us.css"  type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<!--头部-->
+
+
+<div class="head_scroll" id="head">
+   <div class="opsity"></div>
+   <div class="head"> <a href="#"><img class="logo" src="images/logo.png"/></a>
+    <div class="right">
+       <ul class="right_ones">
+        <li><a href="index.html" target="_self" >首页</a></li>
+        <li><a href="function2.html"  target="_self">功能介绍</a></li>
+        <li><a href="app.html"  target="_self">APP下载</a></li>
+        <li><a href="product2.html"  target="_self">智能硬件</a></li>
+        
+      </ul>
+       <ul class="right_two">
+        <li><a class="login"href="http://w.wo365.net" target="_self">登录</a></li>
+        <li><a class="register" href="#">注册</a></li>
+      </ul>
+     </div>
+  </div>
+ </div>
+ <div class="top_mar"></div>
+<!--banner-->
+<div class="banner"></div>
+<div class="main">
+   <div class="left">
+        <ul class="list_nav">
+           <li><a href="#compeny">公司简介</a><label ></label> <span class="icon_loca"></span></li>
+            <li><a href="#woguan_c">沃管车简介</a><label id="ksu_2"></label></li>
+             <li><a href="#call_us">联系我们<label id="ksu_3"></label></li>
+        </ul>
+   
+   </div>
+   <div class="right">
+     <a href="compeny"></a>
+     <h1 class="one_h1">公司简介</h1>
+     <p  class="p_t1">深圳市卫网科技有限公司成立于2011年，是一家专业为车联网应用提供解决方案，并对车联网产品进行研发的技术型公司。 一直以来我们坚持聚焦战略，对车辆的通讯、定位、OBD数据、CAN总线数据和系统平台等领域持续进行研发投入，并积极致力于为电信运营商、行业应用、集团企业和消费者等提供有竞争力的车联网应用解决方案和服务。</p>
+     
+     
+      <a href="woguan_c"></a>
+      <h1 class="two_h1" id="ksu_1">沃管车简介</h1>
+     <p class="p_t2">沃管车™是卫网®科技针对商用车开发的精细管理工具，以全新设计的智能终端为基础，运用动态位置信息化平台系统解决车辆安全行驶监督、规范运输、科学调度和日常管理等问题，协助客户更好的降低成本、提升车辆运营效率。沃管车TM分为运营商版和渠道版，运营商版是中国联通政企客户车辆管理的标准化产品。</p>
+     <p class="copy_wo"><b><a href="http://www.10010gps.com" target="_self">了解沃管车™</a></b>运营商版。</p>
+     <a href="call_us"></a>
+     <h1 class="three_h1">联系我们</h1>
+     <div class="context">
+     <img src="images/sl010283.jpg"/>
+        <p>公司地址：深圳市宝安区宝源路168号<br/>
+联系电话：0755-33001615<br/>
+企业官网：http://www.autogps.cn<br/>
+电子邮箱：info@autogps.cn
+</p>
+   <b><label>XX授权服务中心</label>/<label>公司名称</label>/<label>深圳市宝安区宝源路168号</label></b>
+     </div>
+   
+   </div>
+</div>
+
+
+
+<!--底部-->
+<div class="footer">
+    <div class="f_conten">
+       <div class="l_ones">
+         <ul>
+              <li><a href="about_us.html" target="_self">关于我们</a> </li>
+              <li><a  href="cooperation.html"  target="_self">商务合作</a> </li>
+              <li><a href="http://m.wo365.net" target="_blank">管理平台</a> </li>
+         </ul>
+         <div class="clear"></div>
+         <p>CopyRight © 2011-2016 <a href="www.autogps.cn" target="_blank"> AUTOGPS All </a>Rights Reserved  <a href="www.miitbeian.gov.cn" target="_blank">粤ICP备13027497号-4</a></p>
+       </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script>
+    $(document).ready(function() {
+		 
+		 
+	  $(document).scroll(function(){
+		  var sool=$(window).scrollTop();
+	    var assd= $("#ksu_1").offset().top;
+	    var huie = $(".list_nav").offset().top;
+		 
+		
+	 if(sool>=100){
+		   
+		  
+		   
+		   $(".list_nav").css({"position":"fixed","top":"130px"});
+		   } else {
+			    $(".list_nav").css({"position":"relative","top":"0"});
+			   }
+	  
+	  if(sool<=350){
+		   $(".icon_loca").css("top","5px")
+		   
+		   }
+	 
+	   if(sool>=450){
+		   $(".icon_loca").css("top","80px")
+		   
+		   }
+		  
+	  if(sool>=520){
+		   $(".icon_loca").css("top","158px")
+		   
+		   }
+		 
+	   
+		 });
+		 
+		 
+		 
+		/* 
+		 $(".list_nav").scroll(function(){
+			 
+			 alert(1);
+			
+			 
+			 })*/
+});
+
+
+
+</script>
+<!--<script type="text/javascript" src="js/script.js"></script>-->

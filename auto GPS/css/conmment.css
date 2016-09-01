@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+	@font-face{
+    font-family: "FZY1JW","MINI";
+    src: url(../font/FZY1JW.TTF) format('truetype'),
+	src:url(../font/MINI.TTF) format('truetype');
+	
+	font-weight:normal;
+	font-style:normal;
+}
+
+/*头部*/
+.head_scroll{ height:80px; width:100%; z-index:5; background:#fff; position:fixed; opacity:0.9;}
+.head_scroll .opsity{ height:80px; width:100%; background:rgba(255, 255, 255, 0.7);  position:absolute; z-index:-6}
+.sd_top{height:80px; width:100%; z-index:5}
+.head{ width:1240px; height:80px; margin:auto; }
+.head .logo{ float:left;}
+
+.head .right{ float:right; width:760px; }
+.head .right_ones{ float:left;  height:34px; margin-top:27px; margin-left:8px}
+.head .right_ones li{ float:left; margin-left:12px;border-radius:17px; width:110px; height:30px;}
+.head .right_ones li a{ display:block; font-family:"方正中倩简体"; font-size:16PX; color:#333333; line-height:30px; text-align:center;}
+.head .right_ones li:hover{border-radius:17px;border-radius:17px; background:#e5e5e5;}
+
+.head .right_two{float:right; width:186px; height:36px; margin:26px 0 0 20PX; margin-right:20px;}
+.head .right_two li{ float:left; margin-left:0;width:82px; height:32px; border-radius:4px}
+.head .right_two  a{display:block;font-family:"微软雅黑"; font-size:16PX; line-height:32px; text-align:center; color:#333333;}
+.head .right_two .login{ color:#FFF;}
+.head .right_two li:first-child{ background:#f08519; color:#FFF;}
+.head .right_two li:last-child{ border:1px solid #ccc; color:#FFF; margin-left:20px; background:#fff}/* CSS Document */
+.top_mar{ height:80px; width:100%;}
+
+
+/*底部*/
+.footer{ height:170px; background-color:#43484d;}
+.footer .f_conten{ height:100px; margin:auto; width:1112px; padding-top:60px; background:url(../images/sl01020.png) 660px 20px no-repeat; padding-left:88px;}
+.footer .f_conten .l_ones{  width:500px;}
+.f_conten .l_ones li{ width:90px; float:left; }
+.f_conten .l_ones li a{ color:#fff;font-family:"微软雅黑"; font-size:14PX;}
+.f_conten .l_ones li a:hover{color:#ff6600;}
+.f_conten .l_ones p{font-family:"微软雅黑"; font-size:12PX; color:#eee; margin-top:40px;}
+.f_conten .l_ones p a{color:#fecba9;font-size:12PX;}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.footer{ width:100%;  background:#2b2823; border-top: 1px solid #ccc}
+.footer .first{ width:1198px; margin:auto; padding:30px 0 0 0px; margin-bottom:20px;}
+.footer .ones{ float:left; margin-bottom:60px; margin-left:200px;}
+.footer .ones li{ line-height:34px; width:160px;}
+.footer .ones li:first-child{font-family:"微软雅黑"; font-size:16PX; color:#f2f2f2;}
+.footer .ones li a{font-family:"微软雅黑"; font-size:14PX; color:#eee;}
+.footer .ones li a:hover{ color:#ff6600}
+.footer .two{float:left;}
+.footer .two li{ line-height:34px; width:160px;}
+.footer .two li a:hover{ color:#ff6600;}
+.footer .two li:first-child{font-family:"微软雅黑"; font-size:16PX; color:#f2f2f2;}
+.footer .two li a{font-family:"微软雅黑"; font-size:14PX; color:#eeeeee;}
+.footer .first .coll{ width:250px; height:130px; padding-top:36px; float:left; margin-left:60px;}
+.footer .first .coll h2{font-family:"微软雅黑"; font-size:30PX; color:#666666; text-align:center; width:250px; font-weight:normal;}
+.footer .first .coll label{font-family:"微软雅黑"; font-size:14PX; color:#999999; width:250px; line-height:30px; text-align:center; display:block;}
+.footer .three{float:left;  width:160px;}
+.footer .three li{ line-height:34px;}
+.footer .three li:first-child{font-family:"微软雅黑"; font-size:16PX; color:#f2f2f2;}
+.footer .three li a{font-family:"微软雅黑"; font-size:14PX; color:#eee;}
+.footer .three li a:hover{ color:#ff6600}
+.footer .call_numebr{ width:300px; height:100px;  float:left; margin-top:0px}
+.footer .call_numebr p{font-family:"微软雅黑"; font-size:14PX; color:#eee; width:300px; text-align:center;}
+.footer .call_numebr b{font-family:"微软雅黑"; font-size:36PX; color:#e6e6e6;width:300px; text-align:center;display:block; font-weight:normal; line-height:78px;}
+.footer .call_numebr label{font-family:"微软雅黑"; font-size:14PX; color:#f2f2f2;width:300px; text-align:center; display:block;}
+*/
+.footer .copyright{ height:60px; background:#34322e;; width:100%;} 
+.footer .copy{font-family:"微软雅黑"; font-size:14PX; color:#fff; margin: auto; display:block;width:530px; line-height:60px;}
+.footer .copy a{ color:#fecba9}
+
+
+
+
