@@ -6,10 +6,10 @@ a{text-decoration:none;}
 li{ list-style: none}
 img{border:0;}
 .clear{ clear:both}
-body{ background:url(../images/subtle_white_mini_waves.png) repeat; height:5000px;}
+body{ background:url(../images/subtle_white_mini_waves.png) repeat; position:relative;}
 
 /*头部*/
-#head{ height:60px; background:#363636; width:100%}
+#head{ height:60px; background:#363636; width:100%; top:0; border:1px solid blue }
 #head #content{ height:60px; width:1100px; margin:auto;}
 #content .left{ height:60px; width:150px;float:left; }
 #content .left div{height:60px; width:150px;}
@@ -24,14 +24,14 @@ body{ background:url(../images/subtle_white_mini_waves.png) repeat; height:5000p
 #content .right label{ display:inline-block; height:4px; position:absolute; width:104px; background:#e0b277; left:0; bottom:0;}
 
 /*简介*/
-.main{ width:100%; height:280px; background:#fff; border-bottom:1px solid #ccc;}
-.main .Introduction{ width:1100px; height:280px; margin:auto;}
-.main .Introduction .I_left{ width:200px;text-align:center; background:#eee;height:280px; float:left;}
+.main{ width:100%; height:230px; background:#fff; border-bottom:1px solid #ccc;}
+.main .Introduction{ width:1100px; height:230px; margin:auto;}
+.main .Introduction .I_left{ width:200px;text-align:center; background:#eee;height:230px; float:left;}
 .main .Introduction .I_left img{ margin-top:40px; margin-bottom:10px;}
 .Introduction .I_left span{ display:block; width:200px;font-family:"微软雅黑";font-size:16px; text-align:center;color:#525252;  margin-bottom:6px;}
 .Introduction .I_left label{ display:block; width:200px;font-family:"微软雅黑";font-size:12px; text-align:center; color:#e0a65c;}
 
-.Introduction .I_right{ width:860px;text-align:center; background:rgba(204,204,204,0.2);height:240px; float:left; padding-top:40px; padding-left:40px;}
+.Introduction .I_right{ width:860px;text-align:center; background:rgba(204,204,204,0.2);height:190px; float:left; padding-top:40px; padding-left:40px;}
 .Introduction .I_right .world{ width:120px; height:30px; border:1px solid #757575;}
 .Introduction .I_right .world span{ display: block;}
 .Introduction .I_right .w_le{ width:60px; height:30px; float:left;font-family:"微软雅黑";font-size:12px ; text-align:center;color:#525252;line-height:30px; }
@@ -118,12 +118,50 @@ body{ background:url(../images/subtle_white_mini_waves.png) repeat; height:5000p
 .experience #me_talk .left p{font-family:"微软雅黑";font-size:14px; color:#525252; width:700px; height:120px; line-height:24px; margin-left:70px;}
 .experience #me_talk .right{ width:100px; height:160px; float:left; }
 .experience #me_talk .right img{ margin-top:20px;}
-#ex_show .company{ width:1100px; height:338px; background:#eee; overflow:hidden;}
-#ex_show .company ul{ width:2200px;}
+#ex_show .company{ width:1100px; height:338px; background:#eee; position:relative; overflow:hidden; }
+#ex_show .company ul{ position:absolute}
 #ex_show .company ul li{ width:1100px; float:left;}
 #ex_show .nav{ width:1100px; height:30px; text-align:center; margin-top:16px;}
 #ex_show .nav .ones{ margin-left:10px; display:inline-block; width:8px; background:orange; height:8px; border-radius:10px;}
 #ex_show .nav .two{display:inline-block; width:8px; background:orange; height:8px; border-radius:10px;}
+/*专业技能*/
+.skill{ width:100%; height:530px; }
+.skill #sk_show{ width:1100px; height:490px; margin:auto;padding-top:40px;}
+#sk_show .my_w{ width:1100px; height:34px; line-height:34px; text-align:center;font-family:"微软雅黑";font-size:20px; color:#525252; font-weight: 400; }
+#sk_show .my_w label{ color:#e0973a;font-family:"微软雅黑";font-size:20px; }
+#sk_show #subtitle{ display:block; width:1100px;font-family:"微软雅黑";font-size:12px; text-align:center; color:#525252;}
+#sk_show .line{ width:46px; height:4px; background:#e0a65c; margin:auto; margin-top:20px; margin-bottom:40px;}
+#sk_show .part{ width:700px; height:114px; margin:auto; background:url(../images/jk_05.png) center no-repeat; padding-left:45px; padding-top:20px;}
+#sk_show .part p{ width:670px; height:90px;font-family:"微软雅黑";font-size:16px; color:#757575; line-height:30px;}
+#sk_show ul{ width:790px; height:184px; float:left; margin-left:160px; margin-top:30px;}
+#sk_show ul li{ width:142px; height:184px; float:left; margin-left:50px;text-align:center;}
+#sk_show ul li:first{ margin-left:10px;}
+
+#sk_show ul label{ display:block;width:142px; color:#525252; font-family:"微软雅黑";font-size:14px; margin-top:30px; text-align:center;}
+
+/*关于我*/
+.about{ width:100%; height:650px; background:#fff; }
+.about #ab_show{ width:1100px; height:610px; margin:auto;padding-top:40px;background:#fff;}
+#ab_show .my_w{ width:1100px; height:34px; line-height:34px; text-align:center;font-family:"微软雅黑";font-size:20px; color:#525252; font-weight: 400; }
+#ab_show .my_w label{ color:#e0973a;font-family:"微软雅黑";font-size:20px; }
+#ab_show #subtitle{ display:block; width:1100px;font-family:"微软雅黑";font-size:12px; text-align:center; color:#525252;}
+#ab_show .line{ width:46px; height:4px; background:#e0a65c; margin:auto; margin-top:20px; margin-bottom:40px;}
+#ab_show .about_detail{ width:770px; height:90px; margin:auto;}
+#ab_show .about_detail p{font-family:"微软雅黑";font-size:14px; color:#757575; width:770px; height:90px;line-height:30px;}
+#ab_show ul{ width:660px; height:170px; float:left; margin-left:210px;}
+#sk_show ul li:first{ margin-left:10px;}
+#ab_show ul li{ width:660px; height:170px; float:left; width:110px;margin-left:50px;text-align:center; margin-top:30px;}
+#ab_show ul label{ display:block;width:110px; color:#525252; font-family:"微软雅黑";font-size:14px; margin-top:30px; text-align:center;}
+#ab_show .call_me{ width:580px; height:170px; margin:auto; border-top:6px solid #cfcfcf; margin-top:20px;}
+#ab_show .call_me table{ border:1px solid #cfcfcf;width:580px; height:170px;}
+#ab_show .call_me table tr{border:1px solid #eee;}
+#ab_show .call_me table td{border:1px solid #eee;}
+#ab_show .call_me .l_ta{ width:174px;font-family:"微软雅黑";font-size:14px; color:#e0973a; text-align:center;}
+#ab_show .call_me .r_ta{ width:376px; color:#757575;font-family:"微软雅黑";font-size:14px; padding-left:30px}
+
+/*底部*/
+footer{ width:100%; height:50px; background:#363636;}
+
 
 
 
