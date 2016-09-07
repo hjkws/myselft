@@ -86,6 +86,12 @@ window.onload=function(){
 	 aLi3[0].onclick=function(){
 	  window.open('four/product_7.html','_blank')	 
 	}
+	 aLi3[1].onclick=function(){
+	  window.open('four/product_9.html','_blank')	 
+	}
+	 aLi3[2].onclick=function(){
+	  window.open('four/product_8.html','_blank')	 
+	}
 	
 	
 	///////////////////////////////////////////////////////////////////////////////////////////////////
